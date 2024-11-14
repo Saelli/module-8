@@ -1,0 +1,9 @@
+# Eleonora
+#11.14.2024
+def find(input_list):
+    if 5 in input_list:
+        print("The value 5 is in the list.")
+    else:
+        print("The value 5 is not in the list.")
+
+# Write a function that takes a list and prints if the value 5 is in that list.
