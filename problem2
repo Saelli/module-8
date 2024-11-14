@@ -1,0 +1,16 @@
+# Eleonora Dosumbetova
+# 11.12.24
+
+num1= input("print num: ")
+num2= input("print num: ")
+sum = num1 + num2
+def equal(sum):
+    if sum > 10:
+        print("sum is greater than 10")
+    elif sum < 10:
+        print("sum is smaller than 10")
+    else: print("sum is equal to 10") 
+
+equal(sum)
+
+#  function that takes two inputs from a user and prints whether the sum is greater than 10, less than 10, or equal to 10
