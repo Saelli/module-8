@@ -1,0 +1,26 @@
+#Eleonora
+#14.11.24
+from l8_p5 import resources
+
+def check_items(num):
+    print("You don't have it yet")
+    print(f"{resources.sora.weapons}")
+    #the number has to connect to a specific list
+    # print out the lust connected to the task number
+    #print("coat" in sain.weapons)
+    if num == 1:
+        for item in ['pan', 'paper', 'idea', 'rope', 'groceries']:
+            if item in resources.sora.weapons:
+                print(f"hey, you don't have {item}")
+                return False
+
+        print['rope', 'coat', 'first aid']
+        return True
+    elif num == 2:
+        print['pan', 'groceries']
+    elif num == 3:
+        print['paper', 'pen']
+
+check_items(1)
+
+#
